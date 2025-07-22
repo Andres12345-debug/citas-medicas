@@ -81,7 +81,8 @@ nest g module config/conexion
 
 ###### CREACION DE LOS MODELOS #######
    	nest g cl modelos/usuario --no-spec
- 
+    nest g cl modelos/acceso --no-spec
+
 #### Middleware #####
     nest g cl middleware/seguridad/seguridad --no-spec
 
