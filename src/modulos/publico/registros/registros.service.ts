@@ -4,6 +4,7 @@ import { Acceso } from 'src/modelos/acceso/acceso';
 import { Usuario } from 'src/modelos/usuario/usuario';
 import GenerarToken from 'src/utilities/shared/generarToken';
 import { DataSource, Repository } from 'typeorm';
+import { ACCESO_SQL } from './registro_sql';
 
 @Injectable()
 export class RegistrosService {

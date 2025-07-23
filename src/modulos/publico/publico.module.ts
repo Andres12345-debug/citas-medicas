@@ -7,7 +7,7 @@ import { AccesosModule } from './accesos/accesos.module';
 const routes: Routes = [
     {
       path: 'publico',
-      children: [UsuariosModule, RegistrosModule],
+      children: [UsuariosModule, RegistrosModule, AccesosModule],
     },
   ];
 

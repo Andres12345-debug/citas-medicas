@@ -6,7 +6,7 @@ import { PublicoModule } from '../publico/publico.module';
 const routes: Routes = [
     {
       path: 'privado',
-      children: [UsuariosModule, PublicoModule],
+      children: [UsuariosModule],
     },
   ];
 
